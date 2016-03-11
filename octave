@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run --rm -it mark311/octave-x11-sshd:v3
+docker run --rm -it mark311/docker-octave-x11-sshd:latest
