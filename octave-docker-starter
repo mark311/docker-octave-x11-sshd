@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -d -p :10022:22 --entrypoint /usr/sbin/sshd mark311/octave -D
