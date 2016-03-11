@@ -1,5 +1,0 @@
-#!/usr/bin/expect -f
-spawn sh -c "ssh -Y -t octave@\$(docker-machine ip default) -p10022 octave"
-expect "assword:"
-send "octave\r"
-interact
